@@ -12,7 +12,6 @@ function letterChecker(str) {
 
 }
 
-
 // ------------------------------------------
 
 
@@ -23,7 +22,22 @@ function letterChecker(str) {
 // output: true (because 4+3)
 
 function sumEqualsTarget(arr, target) {
+
+
+
+    let total = 0
+
+    for (let i = n1; i <= n2; i++) {
+        const currentnum = [i];
+
+
+        total = total + i
+
+    }
+    return total
 }
+
+
 
 
 // ------------------------------------------
