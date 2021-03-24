@@ -6,8 +6,16 @@
 // 1*2*3*4 = 24
 
 function factorials(num) {
+    let total = 1
+    for (let i = 1; i <= num; i++) {
+        const element = num[i];
 
+        total = i * total
+
+    }
+    return total
 }
+
 
 // ------------------------------------------
 
@@ -18,6 +26,16 @@ function factorials(num) {
 
 function rangeTotal(n1, n2) {
 
+    let total = 0
+
+    for (let i = n1; i <= n2; i++) {
+        const currentnum = [i];
+
+
+        total = total + i
+
+    }
+    return total
 }
 
 // ------------------------------------------
@@ -30,5 +48,18 @@ function rangeTotal(n1, n2) {
 // output: 2
 
 function rangeDivisor(start, end, divisor) {
+    let howmany = 0
+    for (let i = start; i <= end; i++) {
+        const currentnum = [i];
+
+        if (i % divisor === 0) {
+            howmany++
+
+        }
+    }
+
+    return howmany
 
 }
+
+
